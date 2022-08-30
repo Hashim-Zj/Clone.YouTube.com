@@ -81,38 +81,17 @@ p {
   border: 1px solid rgb(192, 192, 192);
   border-radius: 2px;
   width: 0;
-  margin-right: 70px;
 }
-
-/* .search-bar:hover {
-  border: 2px solid rgb(167, 167, 167);
-} */
-
 
 .search-bar::placeholder {
   font-size: 16px;
 }
 
-.hover-search {
-  background: transparent;
-  color: rgb(96, 96, 96);
-  height: 40px;
-  width: 40px;
-  border: 1px solid rgb(192, 192, 192);
-  opacity: hover-search 0%;
-  border-right: none;
-  margin-left: -30px;
-}
 
-.hover-search .search-bar:focus {
-  border: 1px solid  rgb(90, 77, 202);
-  opacity: 100%;
-}
 .search-bar:focus {
   outline: none;
   border: 2px solid rgb(90, 77, 202);
-  border-left: none;
-  opacity: hover-search 100%;
+
   
 }
 
